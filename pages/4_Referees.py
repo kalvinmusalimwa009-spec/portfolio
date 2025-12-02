@@ -5,7 +5,7 @@ st.title("Referees")
 st.write("---")
 col1, col2 = st.columns([1, 3])
 with col1:
-    referee1_image = Image.open("C:\\Users\\Admin\\Downloads\\referee 1.jpg")
+    referee1_image = Image.open("referee 1.jpg")
     st.image(referee1_image, width=100)
 with col2:
     st.subheader("Dr. Jane Nafula")
@@ -16,7 +16,7 @@ st.write("---")
 
 col1, col2 = st.columns([1, 3])
 with col1:
-    referee2_image = Image.open("C:\\Users\\Admin\\Downloads\\referee 2.jpg")
+    referee2_image = Image.open("referee 2.jpg")
     st.image(referee2_image, width=100)
 with col2:
     st.subheader("Mr. John Otieno")
@@ -27,7 +27,7 @@ st.write("---")
 
 col1, col2 = st.columns([1, 3])
 with col1:
-    referee3_image = Image.open("C:\\Users\\Admin\\Downloads\\referee 3.jpg")
+    referee3_image = Image.open("referee 3.jpg")
     st.image(referee3_image, width=100)
 with col2:
     st.subheader("Ms. Alice Mwende")
@@ -37,7 +37,7 @@ with col2:
 st.write("---")
 col1, col2 = st.columns([1, 3])
 with col1:
-    referee4_image = Image.open("C:\\Users\\Admin\\Downloads\\referee 4.jpg")
+    referee4_image = Image.open("referee 4.jpg")
     st.image(referee4_image, width=100)
 with col2:
     st.subheader("Mr. Fred Nyachomo")
