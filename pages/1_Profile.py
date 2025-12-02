@@ -11,7 +11,7 @@ st.write("---")
 
 col1, col2 = st.columns([1, 2])
 with col1:
-    profile_image = Image.open("C:\\Users\\Admin\\Downloads\\tue good son.jpg")
+    profile_image = Image.open("tue good son.jpg")
     st.image(profile_image, caption="Welcome to my portfolio!")
 with col2:
     st.subheader("Hello, I'm Musalimwa Kalvin")
